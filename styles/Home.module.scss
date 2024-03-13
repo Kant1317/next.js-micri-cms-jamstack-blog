@@ -1,0 +1,26 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+  padding: 5rem 1rem;
+  title {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  .post {
+    font-size: 1rem;
+    padding: 3rem 0;
+  }
+  figure {
+    max-width: 640px;
+    margin: 3rem auto;
+    img {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
